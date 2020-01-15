@@ -1,5 +1,5 @@
 defmodule Hexpm.Version do
-  @behaviour Ecto.Type
+  use Ecto.Type
 
   def type(), do: :string
 
